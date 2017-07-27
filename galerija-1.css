@@ -1,0 +1,611 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	}
+
+	
+.sepia {
+	
+	filter:sepia(100%);
+}
+
+.strana {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	-webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+	flex-direction: column;
+	align-items:center;
+
+	width: 100vw;
+	height: 100%;
+	background:url(sadrzaj.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.stranica {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-flow: row wrap;
+
+	align-items:flex-start;
+
+	width: 80%;
+	height: 100%;
+	
+	border:1px solid black;
+
+	-webkit-box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+	-moz-box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+	box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+
+}
+
+.heder {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-direction: column;
+
+	width: 100%;
+	height: 350px;
+	border-bottom: 2px solid  #B3C823;
+	align-items:center;
+	justify-content:center;
+
+	background: url(heder.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.heder h1 {
+
+	font-size: 3em;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+    /*color: #4CAF50;  */
+    border-bottom:1px solid  #4CAF50 ;
+    text-shadow:5px 5px 10px black;
+    padding: 10px 150px 10px 150px;
+    background-color: rgba(9,9,9,0.6);
+    color: white;
+   
+   /* text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
+    
+    
+}
+.heder h4 {
+
+	font-size: 1em;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+    
+    border-bottom:1px solid  #4CAF50 ;
+    text-shadow:5px 5px 10px black;
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(9,9,9,0.6);
+    
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+}
+.meni{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+
+	flex-flow: row nowrap;
+	
+	width: 100%;
+	height: 35px;
+	/*border-bottom: 2px solid black;*/
+
+	background:  linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+
+}
+
+.meni1 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 100%;
+	background-color: rgba(9,9,9,0.7);
+
+}
+	li.item {
+		list-style-type: none;
+		text-decoration: none;
+		border-bottom:1px solid white;
+		margin: 5px;
+		padding:3px 15px;
+		width: px;
+		height: px;
+		background:transparent;
+		
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-shadow:5px 5px 10px black;
+		color: white;
+}
+li.item a {
+	color:white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li.item a:hover {
+
+	text-transform: uppercase;
+	color: #B3C823 ;
+
+}
+li.item a:active {
+	text-transform: uppercase;
+	color: #B3C823 ;
+}
+
+
+.sadrzaj-gal{
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-flow: row wrap; 
+	justify-content: center;
+
+
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #B3C823;
+
+	background: url(sadrzaj.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+h1.naslov {
+	font-size: 1.5vw;
+	/*text-transform: uppercase;*/
+	letter-spacing: -2px;
+	font-style: italic;
+
+	border-bottom:2px solid  #4CAF50 ;
+    text-shadow:5px 5px 10px black;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0px 0px 0px;
+    background-color: rgba(9,9,9,0.8);
+    color: white;
+    align-content: flex-start;
+    width: 88%;
+
+
+
+}
+.galerija {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	flex-flow: row wrap ; 
+	align-items: center;
+    justify-content: center;
+
+	width: 90%;
+	height: 100%;
+	margin: 5px;
+	padding: 15px 0px 15px 0px;
+	
+	border-top: 2px solid  #B3C823;
+	border-bottom: 2px solid  #B3C823;
+	
+	background-color: rgba(9,9,9,0.9);
+	color:white;
+	
+}
+/*
+div.img {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	flex-flow: row wrap ; 
+	align-items: center;
+	justify-content: space-around;
+
+	width: 30%;
+	height: 30vh;
+}
+img {
+
+	max-width:100%;
+	max-height:100%; 
+	background:center center;
+	background-repeat: no-repeat;
+}
+ img:hover {
+
+	-webkit-box-shadow: 0px -1px 13px 1px rgba(179,200,35,0.99);
+	-moz-box-shadow: 0px -1px 13px 1px rgba(179,200,35,0.99);
+	box-shadow: 0px -1px 13px 1px rgba(179,200,35,0.99);
+
+}
+*/	
+.box1,.box3,.box4,.box6,.box7,.box9 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	flex-flow: row wrap ; 
+	align-items: center;
+	/*justify-content: space-around;*/
+
+	width: 33.33%;
+	height: 30vh;
+	/*margin: 10px 0px 10px 0px;*/
+	/*border:1px solid white;*/
+
+}
+
+.box2,.box5,.box8{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	flex-flow: column wrap ; 
+	
+	width: 32%;
+	height: 30vh;
+	/*margin: 10px 0px 10px 0px;*/
+	/*border:1px solid white;*/
+
+}
+
+.box1 { order: 1; }
+.im1 {
+	background: url(slika_1.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.box2 { order: 2; }
+.img1{
+	background: url(slika_3.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order: 1;
+}
+.img2{
+	background: url(slika_2.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:40%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:3;
+}
+.img3{
+	background: url(slika_4.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:2;
+}
+
+.box3{ order: 3; }
+.imag1{
+	background: url(slika_5.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+	
+}
+.imag2{
+	background: url(slika-6.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+}
+
+.box4 { order: 6; }
+.im1 {
+	background: url(slika_1.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.box5 { order: 4; }
+.img1{
+	background: url(slika_3.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order: 1;
+}
+
+.img2{
+	background: url(slika_2.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:40%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:3;
+}
+.img3{
+	background: url(slika_4.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:2;
+}
+
+.box6{ order: 5; }
+.imag1{
+	background: url(slika_5.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+	
+}
+.imag2{
+	background: url(slika-6.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+}
+
+
+
+.box7 { order: 7; }
+.im1 {
+	background: url(slika_1.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.box8 { order: 7; }
+.img1{
+	background: url(slika_3.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order: 1;
+}
+
+.img2{
+	background: url(slika_2.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:40%;
+	height:100%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:3;
+}
+
+.img3{
+	background: url(slika_4.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:60%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	order:2;
+}
+
+.box9{ order: 9; }
+.imag1{
+	background: url(slika_5.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+	
+}
+.imag2{
+	background: url(slika-6.jpg) center center;
+	max-width:100%;
+	max-height:100%;
+	width:100%;
+	height:50%;  
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	align-self:flex-end;
+}
+
+
+
+ 
+.futer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-direction: row;
+
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid #392C30;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	letter-spacing: 15px;
+
+
+	background: url(heder.jpg);
+	
+	
+
+
+
+}
+.blur {
+
+	filter:blur(5px);
+
+}
+.box {
+	padding:15px ;
+	
+	border:1px solid rgb(39,131,65);
+	background-color: rgba(9,9,9,0.5);
+	z-index: 99;
+}
+.box p {
+	max-width: 100%;
+
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 1em;
+    text-transform: uppercase;
+	
+
+
+
+}
+.futer p {
+	
+
+}		

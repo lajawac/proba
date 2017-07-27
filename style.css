@@ -1,0 +1,362 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+	
+.sepia {
+	
+	filter:sepia(100%);
+}
+
+.strana {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	
+	-webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+	flex-direction: column;
+	align-items:center;
+
+	width: 100vw;
+	height: 100%;
+	background:url(sadrzaj.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.stranica {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-flow: row wrap;
+
+	align-items:flex-start;
+
+
+	width: 80%;
+	height: 100%;
+	
+	border:1px solid black;
+
+	-webkit-box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+	-moz-box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+	box-shadow: 1px 1px 57px -3px rgba(20,23,21,1);
+
+	
+	
+
+
+}
+.heder {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-flow: column;
+
+	width: 100%;
+	height: 350px;
+	border-bottom: 2px solid  #B3C823;
+	align-items:center;
+	justify-content:center;
+	align-content: space-around;
+
+	background: url(heder.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+
+
+	
+}
+.heder h1{
+
+	font-size: 3em;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+    /*color: #4CAF50;  */
+    border-bottom:1px solid  #4CAF50 ;
+    text-shadow:5px 5px 10px black;
+    padding: 10px 150px 10px 150px;
+    background-color: rgba(9,9,9,0.6);
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+    
+}
+.heder h4 {
+
+	font-size: 1em;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+    
+    border-bottom:1px solid  #4CAF50 ;
+    text-shadow:5px 5px 10px black;
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(9,9,9,0.6);
+    
+    
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+    
+}
+.meni{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+
+	flex-flow: row nowrap;
+	
+	width: 100%;
+	height: 35px;
+	/*border-bottom: 2px solid black;*/
+
+	background:  linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+
+
+
+}
+.meni1 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 100%;
+	background-color: rgba(9,9,9,0.7);
+	border-bottom: 2px solid #B3C823;
+
+}
+	li.item {
+		list-style-type: none;
+		text-decoration: none;
+		border-bottom:1px solid white;
+		margin: 5px;
+		padding:3px 15px;
+		width: px;
+		height: px;
+		background:transparent;
+		
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-shadow:5px 5px 10px black;
+		color: white;
+}
+li.item a {
+	color:white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+li.item a:hover {
+
+	text-transform: uppercase;
+	color: #B3C823 ;
+
+}
+li.item a:active {
+	text-transform: uppercase;
+	color: #B3C823 ;
+}
+
+
+.sadrzaj{
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-flow: row wrap;
+
+	justify-content: space-between;
+
+	width: 100%;
+	height: 100%;
+	border-bottom: 2px solid #B3C823;
+
+	background: url(sadrzaj.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	padding: 20px 0px 20px 0px; 
+	overflow: auto;
+
+}
+
+ .magla {
+
+	width: 100%;
+	height:100%;
+	z-index: -1;
+
+	background:url();
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	-webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    
+	
+
+}
+
+.glavno {
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+	
+	/*border-bottom:2px solid #C01717;
+	border-top: 2px solid #C01717;*/
+
+	border-top: 2px solid  #B3C823;
+	border-bottom: 2px solid  #B3C823;
+	
+	background-color: rgba(9,9,9,0.9);
+	color:white;
+	
+
+}
+.glavni-heder {
+
+}
+.zabava {
+	width: 65%;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+	
+	/*border-bottom:2px solid #C01717;
+	border-top: 2px solid #C01717;*/
+
+	border-top: 2px solid #B3C823;
+	border-bottom: 2px solid  #B3C823;
+	
+	background-color: rgba(9,9,9,0.9);
+	color:white;
+	
+}
+.novosti {
+	width: 27%;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+	
+	/*border-bottom:2px solid #C01717;
+	border-top: 2px solid #C01717;*/
+	
+	border-top:2px solid  #B3C823;
+	border-bottom:2px solid  #B3C823;
+	background-color: rgba(9,9,9,0.9);
+	color:white;
+
+	
+}
+
+
+
+
+
+
+
+
+
+.futer {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;  
+	flex-direction: row;
+
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid #392C30;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	letter-spacing: 15px;
+
+
+	background: url(heder.jpg);
+	
+	
+
+
+
+}
+.blur {
+
+	filter:blur(5px);
+
+}
+.box {
+	padding:15px ;
+	
+	border:1px solid rgb(39,131,65);
+	background-color: rgba(9,9,9,0.5);
+	z-index: 99;
+}
+.box p {
+	max-width: 100%;
+
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 1em;
+    text-transform: uppercase;
+	
+
+
+
+}
+.futer p {
+	
+
+}		
